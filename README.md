@@ -1,16 +1,42 @@
-# React + Vite
+# OneBanc Fintech Dashboard Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly interactive, and visually stunning web application redesign for the OneBanc fintech dashboard. Built with **React**, **Vite**, and **Framer Motion**, this project focuses on delivering a premium user experience through fluid animations, glassmorphism UI components, and intuitive interactions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Fluid Animations**: Leveraging Framer Motion for highly tactile, spring-based interactions and micro-animations (e.g., interactive buttons, seamless page transitions).
+- **Interactive Modals**: Custom animated "Bottom Sheet" modals for Send, Receive, and Add Funds actions.
+- **Dynamic Themes**: Fully responsive Global Light and Dark Modes with smooth color and background transitions.
+- **Sleek UI/UX**: Custom CSS utilizing deep gradients, neon accents, and `backdrop-filter` for a premium glassmorphic aesthetic.
+- **Responsive Layout**: Designed mobile-first for a perfect fit on any device, complete with a floating bottom navigation bar.
 
-## React Compiler
+## 💻 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (via Vite)
+- **Framer Motion** (for animations)
+- **Lucide React** (for iconography)
+- **Vanilla CSS** (custom variables and layout)
 
-## Expanding the ESLint configuration
+## 🛠️ Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v18 or higher)
+
+### Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/maiayushhoon26/onebanc.git
+   ```
+2. Navigate into the directory
+   ```bash
+   cd onebanc
+   ```
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+4. Start the development server
+   ```bash
+   npm run dev
+   ```
+   The app will be available at `http://localhost:5173`.
