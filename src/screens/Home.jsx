@@ -19,11 +19,11 @@ export default function Home() {
       <header className="home-header">
         <div className="user-info">
           <div className="avatar">
-            <img src="https://ui-avatars.com/api/?name=Alex+Doe&background=7c3aed&color=fff&size=100" alt="Avatar" />
+            <img src="https://ui-avatars.com/api/?name=Ayush+Kumar&background=7c3aed&color=fff&size=100" alt="Avatar" />
           </div>
           <div>
             <p className="greeting">Good morning,</p>
-            <h1 className="user-name">Alex Doe</h1>
+            <h1 className="user-name">Ayush Kumar</h1>
           </div>
         </div>
         <button className="glass-btn icon-btn" onClick={() => setIsNotificationsOpen(true)}>

@@ -38,11 +38,11 @@ export default function Settings({ isDarkMode, setIsDarkMode }) {
 
       <div className="profile-summary glass-panel">
         <div className="profile-img">
-          <img src="https://ui-avatars.com/api/?name=Alex+Doe&background=7c3aed&color=fff&size=120" alt="Alex Doe" />
+          <img src="https://ui-avatars.com/api/?name=Ayush+Kumar&background=7c3aed&color=fff&size=120" alt="Ayush Kumar" />
         </div>
         <div className="profile-info">
-          <h2>Alex Doe</h2>
-          <p>alex.doe@example.com</p>
+          <h2>Ayush Kumar</h2>
+          <p>ayush.kumar@example.com</p>
           <span className="status-badge">Premium Member</span>
         </div>
         <button className="edit-btn">Edit</button>
